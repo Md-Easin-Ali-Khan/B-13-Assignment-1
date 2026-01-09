@@ -277,3 +277,59 @@ Challenge Area
 /* =========================================
 Footer Area
 ========================================= */
+
+footer{
+    background-color: #001931;
+}
+
+.footer-area{
+    padding: 120px 0 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-section{
+    margin-right: 107px;
+}
+
+.social-section>p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+.social-links{
+    display: flex;
+    gap: 16px;
+}
+
+.social-media{
+    background-color: #FFFFFF;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.social-media>i{
+    color: #000000;
+}
+
+footer> hr{
+    border: 1px solid rgb(69, 66, 66);
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer>p{
+    color: #FAFAFA;
+    text-align: center;
+    padding: 20px 0;
+}
